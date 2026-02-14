@@ -1,0 +1,63 @@
+@font-face {
+font-family: "PixelBasel";
+src: url(/fonts/Pixelbasel.ttf) format("truetype");
+}
+
+:root {
+--link-color: #ABEEAA;
+
+}
+
+body {
+ width: 100%;
+min-height: 100vh;
+background-image: url(/img/backgroundtest1.png);
+margin: 0;
+font-family: "PixelBasel";
+
+}
+
+
+div {
+    display: block;
+}
+
+#container {
+margin: 0 auto;
+
+
+}
+
+#mainbox {
+background-color: #000f14d0;
+width: 500px;
+height: 100vb;
+}
+
+#logoimg {
+width: 200px;
+image-rendering: pixelated;
+}
+
+#logo {
+background-color: #000f14d0;
+box-shadow: 0 4px 10px -9px #84B584;
+}
+
+#maininfo {
+  margin-top: 10px;
+color: #a5bba5;
+font-size: 30px;
+
+}
+
+a {
+ color: var(--link-color);
+ text-decoration: none;
+display: grid;
+}
+
+a:hover {
+text-decoration: underline;
+
+}
